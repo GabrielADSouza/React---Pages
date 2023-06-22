@@ -1,0 +1,86 @@
+.center-image {
+    max-width: 45%; /* Ajusta o tamanho máximo da imagem */
+    max-height: 45%; /* Ajusta a altura máxima da imagem */
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+
+  .nextButton {
+    background-color: #003e19;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 80px;
+    width: 80px;
+    border-radius: 70%;
+    margin-top: 685px;
+  }
+
+  h3 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .enderecoCadastro {
+    max-width: 750px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1.5rem;
+    box-shadow: rgba(100, 100, 111, .2) 0px 7px 29px 0px;
+    border: solid black 1px;
+  }
+
+  .endereco {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .containerDown {
+    max-width: 750px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #e6cdcd;
+    padding: 1.5rem;
+    margin-top: 62px;
+    min-height: 200px;
+  }
+
+  .containerConfirma {
+    max-width: 750px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1.5rem;
+    box-shadow: rgba(100, 100, 111, .2) 0px 7px 29px 0px;
+    border: solid black 1px;
+    min-height: 150px;
+  }
+
+  .rua {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .cep {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 47px;
+    display: flex;
+  }
+
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000;
+    margin: 1em 0;
+    padding: 0;
+    margin-top: 56px;
+  }

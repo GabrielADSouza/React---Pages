@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Home from './TelaHome/Home';
+import Cadastro from './TelaCadastro/Cadastro';
+import Pagamento1 from './TelaPagamento1/Pagamento1';
+import Pagamento2 from './TelaPagamento2/Pagamento2';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="/pagamento1" element={<Pagamento1 />} />
+        <Route path="/pagamento2" element={<Pagamento2 />} />
+      </Routes>
   );
 }
 

@@ -1,0 +1,117 @@
+.containerCartao {
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 1.5rem;
+  box-shadow: rgba(100, 100, 111, .2) 0px 7px 29px 0px;
+  border: solid black 1px;
+}
+
+.containerPix {
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1.5rem;
+    box-shadow: rgba(100, 100, 111, .2) 0px 7px 29px 0px;
+    border: solid black 1px;
+    margin-top: 100px;
+}
+
+.containerRightSide {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1.5rem;
+}
+
+.campo1 {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: solid black 1px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    transition: all 0.3s ease;
+    width: 400px;
+}
+
+.campo2 {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: solid black 1px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    transition: all 0.3s ease;
+    width: 400px;
+}
+
+.campo3 {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: solid black 1px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    transition: all 0.3s ease;
+    margin-right: 50px;
+    width: 220px;
+}
+
+.campo4 {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: solid black 1px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    transition: all 0.3s ease;
+    width: 130px;
+}
+
+.campo5 {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: solid black 1px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    transition: all 0.3s ease;
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    min-height: 100px;
+}
+
+.backButton {
+    background-color: #003e19;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 80px;
+    width: 80px;
+    border-radius: 70%;
+    margin-top: 67px;
+}
+
+.campo6 {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: solid black 1px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    transition: all 0.3s ease;
+    width: 650px;
+    height: 350px;    
+}
+
+.pedido {
+    background-color: #003e19;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 60px;
+    width: 380px;
+    margin-top: 32px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 114px;
+}
